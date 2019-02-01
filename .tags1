@@ -1,0 +1,16 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+PCA9685	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^PCA9685::PCA9685(uint8_t addr, bool debug) {$/;"	function	line:32	class:PCA9685	signature:(uint8_t addr, bool debug)
+begin	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::begin(void) {$/;"	function	line:40	class:PCA9685	signature:(void)
+reset	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::reset(void) {$/;"	function	line:48	class:PCA9685	signature:(void)
+setPWMFreq	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::setPWMFreq(float freq) {$/;"	function	line:57	class:PCA9685	signature:(float freq)
+setVal	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::setVal(uint8_t ledNum, uint16_t val, bool invert)$/;"	function	line:93	class:PCA9685	signature:(uint8_t ledNum, uint16_t val, bool invert)
+readPWMOff	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^uint16_t PCA9685::readPWMOff(uint8_t ledNum) {$/;"	function	line:131	class:PCA9685	signature:(uint8_t ledNum)
+readPWMOn	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^uint16_t PCA9685::readPWMOn(uint8_t ledNum) {$/;"	function	line:142	class:PCA9685	signature:(uint8_t ledNum)
+setPWM	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::setPWM(uint8_t ledNum, uint16_t on, uint16_t off) {$/;"	function	line:155	class:PCA9685	signature:(uint8_t ledNum, uint16_t on, uint16_t off)
+read8	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^uint8_t PCA9685::read8(uint8_t addr) {$/;"	function	line:175	class:PCA9685	signature:(uint8_t addr)
+write8	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::write8(uint8_t addr, uint8_t val) {$/;"	function	line:188	class:PCA9685	signature:(uint8_t addr, uint8_t val)

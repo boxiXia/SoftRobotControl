@@ -1,0 +1,279 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Adafruit 16-channel PWM & Servo driver	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\README.md	/^## Adafruit 16-channel PWM & Servo driver$/;"	function	line:1
+Connections	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\README.md	/^### Connections$/;"	function	line:6
+Things to Note	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\README.md	/^### Things to Note$/;"	function	line:13
+Default I2C Slave Address	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\README.md	/^### Default I2C Slave Address $/;"	function	line:15
+setVal vs setPWM	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\README.md	/^### setVal vs setPWM$/;"	function	line:18
+Examples	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\README.md	/^### Examples$/;"	function	line:21
+Credits	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\README.md	/^## Credits$/;"	function	line:24
+License	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\README.md	/^## License$/;"	function	line:33
+PCA9685	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^PCA9685::PCA9685(uint8_t addr, bool debug) {$/;"	function	line:32	class:PCA9685	signature:(uint8_t addr, bool debug)
+begin	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::begin(void) {$/;"	function	line:40	class:PCA9685	signature:(void)
+reset	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::reset(void) {$/;"	function	line:48	class:PCA9685	signature:(void)
+setPWMFreq	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::setPWMFreq(float freq) {$/;"	function	line:57	class:PCA9685	signature:(float freq)
+setVal	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::setVal(uint8_t ledNum, uint16_t val, bool invert)$/;"	function	line:93	class:PCA9685	signature:(uint8_t ledNum, uint16_t val, bool invert)
+readPWMOff	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^uint16_t PCA9685::readPWMOff(uint8_t ledNum) {$/;"	function	line:131	class:PCA9685	signature:(uint8_t ledNum)
+readPWMOn	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^uint16_t PCA9685::readPWMOn(uint8_t ledNum) {$/;"	function	line:142	class:PCA9685	signature:(uint8_t ledNum)
+setPWM	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::setPWM(uint8_t ledNum, uint16_t on, uint16_t off) {$/;"	function	line:155	class:PCA9685	signature:(uint8_t ledNum, uint16_t on, uint16_t off)
+read8	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^uint8_t PCA9685::read8(uint8_t addr) {$/;"	function	line:175	class:PCA9685	signature:(uint8_t addr)
+write8	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.cpp	/^void PCA9685::write8(uint8_t addr, uint8_t val) {$/;"	function	line:188	class:PCA9685	signature:(uint8_t addr, uint8_t val)
+_Adafruit_PCA9685_H	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.h	/^#define _Adafruit_PCA9685_H$/;"	macro	line:23
+PCA9685_MODE1	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.h	/^#define PCA9685_MODE1 /;"	macro	line:28
+PCA9685_LED0_ON_L	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.h	/^#define PCA9685_LED0_ON_L /;"	macro	line:33
+PCA9685_LED0_ON_H	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.h	/^#define PCA9685_LED0_ON_H /;"	macro	line:34
+PCA9685_LED0_OFF_L	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.h	/^#define PCA9685_LED0_OFF_L /;"	macro	line:35
+PCA9685_LED0_OFF_H	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.h	/^#define PCA9685_LED0_OFF_H /;"	macro	line:36
+PCA9685_PRESCALE	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.h	/^#define PCA9685_PRESCALE /;"	macro	line:41
+PCA9685	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.h	/^class PCA9685 {$/;"	class	line:44
+_i2caddr	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.h	/^  uint8_t _i2caddr;$/;"	member	line:56	class:PCA9685
+_debug	D:\Google Drive\Soft Robot\electronics\Test3\lib\Adafruit_PCA9685\src\Adafruit_PCA9685.h	/^  bool _debug;$/;"	member	line:57	class:PCA9685
+ReadADS1115	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^int ADS1115::ReadADS1115() {$/;"	function	line:5	class:ADS1115	signature:()
+ReadADS1115	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^int ADS1115::ReadADS1115(int adcIndex){$/;"	function	line:29	class:ADS1115	signature:(int adcIndex)
+SendConfig	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^void ADS1115::SendConfig(byte config[]) {$/;"	function	line:35	class:ADS1115	signature:(byte config[])
+SendConfig	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^void ADS1115::SendConfig(int configIndex){$/;"	function	line:45	class:ADS1115	signature:(int configIndex)
+InterruptSetup	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^void ADS1115::InterruptSetup() {$/;"	function	line:50	class:ADS1115	signature:()
+ADS1115	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^ADS1115::ADS1115(int numADC, byte _i2caddr) {$/;"	function	line:69	class:ADS1115	signature:(int numADC, byte _i2caddr)
+ADS1115	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^ADS1115::ADS1115(int numADC, byte _i2caddr, byte gain, byte dataRate) {$/;"	function	line:75	class:ADS1115	signature:(int numADC, byte _i2caddr, byte gain, byte dataRate)
+SetConfig	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^void ADS1115::SetConfig(int configNum,byte gain,byte mux,byte dataRate,bool isContinous,bool send){$/;"	function	line:103	class:ADS1115	signature:(int configNum,byte gain,byte mux,byte dataRate,bool isContinous,bool send)
+TimerCallBack	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^void ADS1115::TimerCallBack() {$/;"	function	line:113	class:ADS1115	signature:()
+read8	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^uint8_t ADS1115::read8(uint8_t addr) {$/;"	function	line:141	class:ADS1115	signature:(uint8_t addr)
+write8	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^void ADS1115::write8(uint8_t addr, uint8_t val) {$/;"	function	line:154	class:ADS1115	signature:(uint8_t addr, uint8_t val)
+WheatstonBridge	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^WheatstonBridge::WheatstonBridge(float r1,float r3, float r4){$/;"	function	line:176	class:WheatstonBridge	signature:(float r1,float r3, float r4)
+getR2	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^float WheatstonBridge::getR2(float vs,float vg){$/;"	function	line:182	class:WheatstonBridge	signature:(float vs,float vg)
+getR2	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.cpp	/^float WheatstonBridge::getR2(int vs,int vg,float gain){$/;"	function	line:187	class:WheatstonBridge	signature:(int vs,int vg,float gain)
+ADS1115_H	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_H$/;"	macro	line:2
+ADS1115_CONVERSIONDELAY	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_CONVERSIONDELAY /;"	macro	line:5
+ADS1115_ADDRESS_ADDR_GND	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_ADDRESS_ADDR_GND /;"	macro	line:10
+ADS1115_ADDRESS_ADDR_VDD	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_ADDRESS_ADDR_VDD /;"	macro	line:11
+ADS1115_ADDRESS_ADDR_SDA	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_ADDRESS_ADDR_SDA /;"	macro	line:12
+ADS1115_ADDRESS_ADDR_SCL	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_ADDRESS_ADDR_SCL /;"	macro	line:13
+ADS1115_DEFAULT_ADDRESS	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_DEFAULT_ADDRESS /;"	macro	line:14
+ADS1115_POINTER_CONVERT	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_POINTER_CONVERT /;"	macro	line:20
+ADS1115_POINTER_CONFIG	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_POINTER_CONFIG /;"	macro	line:21
+ADS1115_LO_THRESH	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_LO_THRESH /;"	macro	line:22
+ADS1115_HI_THRESH	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_HI_THRESH /;"	macro	line:23
+ADS1115_OS_SINGLE	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_OS_SINGLE /;"	macro	line:29
+ADS1115_MUX_DIFF_0_1	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_MUX_DIFF_0_1 /;"	macro	line:32
+ADS1115_MUX_DIFF_0_3	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_MUX_DIFF_0_3 /;"	macro	line:33
+ADS1115_MUX_DIFF_1_3	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_MUX_DIFF_1_3 /;"	macro	line:34
+ADS1115_MUX_DIFF_2_3	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_MUX_DIFF_2_3 /;"	macro	line:35
+ADS1115_MUX_SINGLE_0	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_MUX_SINGLE_0 /;"	macro	line:36
+ADS1115_MUX_SINGLE_1	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_MUX_SINGLE_1 /;"	macro	line:37
+ADS1115_MUX_SINGLE_2	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_MUX_SINGLE_2 /;"	macro	line:38
+ADS1115_MUX_SINGLE_3	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_MUX_SINGLE_3 /;"	macro	line:39
+ADS1115_PGA_6_144V	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_PGA_6_144V /;"	macro	line:42
+ADS1115_PGA_4_096V	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_PGA_4_096V /;"	macro	line:43
+ADS1115_PGA_2_048V	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_PGA_2_048V /;"	macro	line:44
+ADS1115_PGA_1_024V	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_PGA_1_024V /;"	macro	line:45
+ADS1115_PGA_0_512V	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_PGA_0_512V /;"	macro	line:46
+ADS1115_PGA_0_256V	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_PGA_0_256V /;"	macro	line:47
+ADS1115_MODE_CONTIN	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_MODE_CONTIN /;"	macro	line:50
+ADS1115_MODE_SINGLE	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_MODE_SINGLE /;"	macro	line:51
+ADS1115_DR_8SPS	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_DR_8SPS /;"	macro	line:55
+ADS1115_DR_16SPS	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_DR_16SPS /;"	macro	line:56
+ADS1115_DR_32SPS	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_DR_32SPS /;"	macro	line:57
+ADS1115_DR_64SPS	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_DR_64SPS /;"	macro	line:58
+ADS1115_DR_128SPS	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_DR_128SPS /;"	macro	line:59
+ADS1115_DR_250SPS	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_DR_250SPS /;"	macro	line:60
+ADS1115_DR_475SPS	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_DR_475SPS /;"	macro	line:61
+ADS1115_DR_860SPS	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^#define ADS1115_DR_860SPS /;"	macro	line:62
+ADS1115	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^class ADS1115 {$/;"	class	line:73
+numADC	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^int numADC = 4;$/;"	member	line:75	class:ADS1115
+adc	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^int adc[4];         \/\/ ads1115 conversion result$/;"	member	line:76	class:ADS1115
+_i2caddr	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^byte _i2caddr = ADS1115_ADDRESS_ADDR_GND;$/;"	member	line:77	class:ADS1115
+configs	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^byte configs[4][2];$/;"	member	line:78	class:ADS1115
+adcTimerInt	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^int adcTimerInt = 0;$/;"	member	line:96	class:ADS1115
+counter	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^int counter = 0;$/;"	member	line:97	class:ADS1115
+WheatstonBridge	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^class WheatstonBridge {$/;"	class	line:114
+r1	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^float r1;$/;"	member	line:120	class:WheatstonBridge
+r2	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^float r2;    \/\/Rx$/;"	member	line:121	class:WheatstonBridge
+r3	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^float r3;$/;"	member	line:122	class:WheatstonBridge
+r4	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^float r4;$/;"	member	line:123	class:WheatstonBridge
+a	D:\Google Drive\Soft Robot\electronics\Test3\lib\ADS1115\src\ADS1115.h	/^float a;$/;"	member	line:124	class:WheatstonBridge
+cwpack	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\README.md	/^# cwpack$/;"	function	line:1
+Welcome to your library!	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\README.md	/^## Welcome to your library!$/;"	function	line:5
+Usage	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\README.md	/^## Usage$/;"	function	line:17
+include "cwpack.h"	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\README.md	/^#include "cwpack.h"$/;"	function	line:22
+Documentation	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\README.md	/^## Documentation$/;"	function	line:36
+Contributing	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\README.md	/^## Contributing$/;"	function	line:40
+LICENSE	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\README.md	/^## LICENSE$/;"	function	line:58
+memcpy	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^static void	*memcpy(void *dst, const void *src, size_t n)$/;"	function	line:33	file:	signature:(void *dst, const void *src, size_t n)
+test_byte_order	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^static int test_byte_order(void)$/;"	function	line:51	file:	signature:(void)
+cw_pack_context_init	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^int cw_pack_context_init (cw_pack_context* pack_context, void* data, unsigned long length, pack_overflow_handler hpo)$/;"	function	line:73	signature:(cw_pack_context* pack_context, void* data, unsigned long length, pack_overflow_handler hpo)
+cw_pack_set_compatibility	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_set_compatibility (cw_pack_context* pack_context, bool be_compatible)$/;"	function	line:84	signature:(cw_pack_context* pack_context, bool be_compatible)
+cw_pack_unsigned	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_unsigned(cw_pack_context* pack_context, uint64_t i)$/;"	function	line:94	signature:(cw_pack_context* pack_context, uint64_t i)
+cw_pack_signed	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_signed(cw_pack_context* pack_context, int64_t i)$/;"	function	line:116	signature:(cw_pack_context* pack_context, int64_t i)
+cw_pack_float	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_float(cw_pack_context* pack_context, float f)$/;"	function	line:151	signature:(cw_pack_context* pack_context, float f)
+cw_pack_double	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_double(cw_pack_context* pack_context, double d)$/;"	function	line:161	signature:(cw_pack_context* pack_context, double d)
+cw_pack_real	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_real (cw_pack_context* pack_context, double d)$/;"	function	line:171	signature:(cw_pack_context* pack_context, double d)
+cw_pack_nil	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_nil(cw_pack_context* pack_context)$/;"	function	line:182	signature:(cw_pack_context* pack_context)
+cw_pack_true	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_true (cw_pack_context* pack_context)$/;"	function	line:191	signature:(cw_pack_context* pack_context)
+cw_pack_false	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_false (cw_pack_context* pack_context)$/;"	function	line:200	signature:(cw_pack_context* pack_context)
+cw_pack_boolean	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_boolean(cw_pack_context* pack_context, bool b)$/;"	function	line:209	signature:(cw_pack_context* pack_context, bool b)
+cw_pack_array_size	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_array_size(cw_pack_context* pack_context, uint32_t n)$/;"	function	line:218	signature:(cw_pack_context* pack_context, uint32_t n)
+cw_pack_map_size	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_map_size(cw_pack_context* pack_context, uint32_t n)$/;"	function	line:233	signature:(cw_pack_context* pack_context, uint32_t n)
+cw_pack_str	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_str(cw_pack_context* pack_context, const char* v, uint32_t l)$/;"	function	line:248	signature:(cw_pack_context* pack_context, const char* v, uint32_t l)
+cw_pack_bin	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_bin(cw_pack_context* pack_context, const void* v, uint32_t l)$/;"	function	line:287	signature:(cw_pack_context* pack_context, const void* v, uint32_t l)
+cw_pack_ext	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_ext (cw_pack_context* pack_context, int8_t type, const void* v, uint32_t l)$/;"	function	line:325	signature:(cw_pack_context* pack_context, int8_t type, const void* v, uint32_t l)
+cw_pack_insert	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_pack_insert (cw_pack_context* pack_context, const void* v, uint32_t l)$/;"	function	line:386	signature:(cw_pack_context* pack_context, const void* v, uint32_t l)
+cw_unpack_context_init	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^int cw_unpack_context_init (cw_unpack_context* unpack_context, void* data, unsigned long length, unpack_underflow_handler huu)$/;"	function	line:396	signature:(cw_unpack_context* unpack_context, void* data, unsigned long length, unpack_underflow_handler huu)
+cw_unpack_next	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_unpack_next (cw_unpack_context* unpack_context)$/;"	function	line:411	signature:(cw_unpack_context* unpack_context)
+buffer_end_return_code	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^#define buffer_end_return_code /;"	macro	line:421	file:
+buffer_end_return_code	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^#undef buffer_end_return_code$/;"	macro	line:424	file:
+buffer_end_return_code	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^#define buffer_end_return_code /;"	macro	line:425	file:
+cw_skip_bytes	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^#define cw_skip_bytes(/;"	macro	line:530	file:
+cw_skip_items	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^void cw_skip_items (cw_unpack_context* unpack_context, long item_count)$/;"	function	line:534	signature:(cw_unpack_context* unpack_context, long item_count)
+buffer_end_return_code	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^#undef buffer_end_return_code$/;"	macro	line:545	file:
+buffer_end_return_code	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^#define buffer_end_return_code /;"	macro	line:546	file:
+buffer_end_return_code	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^#undef buffer_end_return_code$/;"	macro	line:550	file:
+buffer_end_return_code	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^#define buffer_end_return_code /;"	macro	line:551	file:
+UnpackCheckU8	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^bool UnpackCheckU8(cw_unpack_context* unpack_context, int8_t value) {$/;"	function	line:675	signature:(cw_unpack_context* unpack_context, int8_t value)
+UnpackCheckArray	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.cpp	/^bool UnpackCheckArray(cw_unpack_context* unpack_context, int size) {$/;"	function	line:680	signature:(cw_unpack_context* unpack_context, int size)
+CWPack_H__	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWPack_H__$/;"	macro	line:24
+CWP_RC_OK	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWP_RC_OK /;"	macro	line:34
+CWP_RC_END_OF_INPUT	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWP_RC_END_OF_INPUT /;"	macro	line:35
+CWP_RC_BUFFER_OVERFLOW	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWP_RC_BUFFER_OVERFLOW /;"	macro	line:36
+CWP_RC_BUFFER_UNDERFLOW	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWP_RC_BUFFER_UNDERFLOW /;"	macro	line:37
+CWP_RC_MALFORMED_INPUT	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWP_RC_MALFORMED_INPUT /;"	macro	line:38
+CWP_RC_WRONG_BYTE_ORDER	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWP_RC_WRONG_BYTE_ORDER /;"	macro	line:39
+CWP_RC_ERROR_IN_HANDLER	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWP_RC_ERROR_IN_HANDLER /;"	macro	line:40
+CWP_RC_ILLEGAL_CALL	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWP_RC_ILLEGAL_CALL /;"	macro	line:41
+CWP_RC_MALLOC_ERROR	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWP_RC_MALLOC_ERROR /;"	macro	line:42
+CWP_RC_STOPPED	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^#define CWP_RC_STOPPED /;"	macro	line:43
+pack_overflow_handler	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^typedef int (*pack_overflow_handler)(struct cw_pack_context*, unsigned long);$/;"	typedef	line:52
+cw_pack_context	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^typedef struct cw_pack_context {$/;"	struct	line:54
+start	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    uint8_t*                start;$/;"	member	line:55	struct:cw_pack_context
+current	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    uint8_t*                current;$/;"	member	line:56	struct:cw_pack_context
+end	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    uint8_t*                end;$/;"	member	line:57	struct:cw_pack_context
+be_compatible	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    bool                    be_compatible;$/;"	member	line:58	struct:cw_pack_context
+return_code	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    int                     return_code;$/;"	member	line:59	struct:cw_pack_context
+err_no	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    int                     err_no;          \/* handlers can save error here *\/$/;"	member	line:60	struct:cw_pack_context
+handle_pack_overflow	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    pack_overflow_handler   handle_pack_overflow;$/;"	member	line:61	struct:cw_pack_context
+cw_pack_context	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^} cw_pack_context;$/;"	typedef	line:62	typeref:struct:cw_pack_context
+CWP_ITEM_MIN_RESERVED_EXT	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_MIN_RESERVED_EXT       = -128,$/;"	enumerator	line:94	enum:__anon1
+CWP_ITEM_MAX_RESERVED_EXT	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_MAX_RESERVED_EXT       = -1,$/;"	enumerator	line:95	enum:__anon1
+CWP_ITEM_MIN_USER_EXT	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_MIN_USER_EXT           = 0,$/;"	enumerator	line:96	enum:__anon1
+CWP_ITEM_MAX_USER_EXT	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_MAX_USER_EXT           = 127,$/;"	enumerator	line:97	enum:__anon1
+CWP_ITEM_NIL	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_NIL                    = 300,$/;"	enumerator	line:98	enum:__anon1
+CWP_ITEM_BOOLEAN	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_BOOLEAN                = 301,$/;"	enumerator	line:99	enum:__anon1
+CWP_ITEM_POSITIVE_INTEGER	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_POSITIVE_INTEGER       = 302,$/;"	enumerator	line:100	enum:__anon1
+CWP_ITEM_NEGATIVE_INTEGER	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_NEGATIVE_INTEGER       = 303,$/;"	enumerator	line:101	enum:__anon1
+CWP_ITEM_FLOAT	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_FLOAT                  = 304,$/;"	enumerator	line:102	enum:__anon1
+CWP_ITEM_DOUBLE	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_DOUBLE                 = 305,$/;"	enumerator	line:103	enum:__anon1
+CWP_ITEM_STR	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_STR                    = 306,$/;"	enumerator	line:104	enum:__anon1
+CWP_ITEM_BIN	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_BIN                    = 307,$/;"	enumerator	line:105	enum:__anon1
+CWP_ITEM_ARRAY	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_ARRAY                  = 308,$/;"	enumerator	line:106	enum:__anon1
+CWP_ITEM_MAP	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_MAP                    = 309,$/;"	enumerator	line:107	enum:__anon1
+CWP_ITEM_EXT	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_ITEM_EXT                    = 310,$/;"	enumerator	line:108	enum:__anon1
+CWP_NOT_AN_ITEM	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    CWP_NOT_AN_ITEM                 = 999,$/;"	enumerator	line:109	enum:__anon1
+cwpack_item_types	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^} cwpack_item_types;$/;"	typedef	line:110	typeref:enum:__anon1
+start	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    const void*     start;$/;"	member	line:114	struct:__anon2
+length	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    uint32_t        length;$/;"	member	line:115	struct:__anon2
+cwpack_blob	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^} cwpack_blob;$/;"	typedef	line:116	typeref:struct:__anon2
+size	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    uint32_t    size;$/;"	member	line:120	struct:__anon3
+cwpack_container	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^} cwpack_container;$/;"	typedef	line:121	typeref:struct:__anon3
+type	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    cwpack_item_types   type;$/;"	member	line:125	struct:__anon4
+boolean	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        bool            boolean;$/;"	member	line:128	union:__anon4::__anon5
+u64	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        uint64_t        u64;$/;"	member	line:129	union:__anon4::__anon5
+i64	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        int64_t         i64;$/;"	member	line:130	union:__anon4::__anon5
+u8	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        uint8_t			    u8;$/;"	member	line:131	union:__anon4::__anon5
+real	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        float           real;$/;"	member	line:132	union:__anon4::__anon5
+long_real	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        double          long_real;$/;"	member	line:133	union:__anon4::__anon5
+array	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        cwpack_container array;$/;"	member	line:134	union:__anon4::__anon5
+map	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        cwpack_container map;$/;"	member	line:135	union:__anon4::__anon5
+str	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        cwpack_blob     str;$/;"	member	line:136	union:__anon4::__anon5
+bin	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        cwpack_blob     bin;$/;"	member	line:137	union:__anon4::__anon5
+ext	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^        cwpack_blob     ext;$/;"	member	line:138	union:__anon4::__anon5
+as	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    } as;$/;"	member	line:139	struct:__anon4	typeref:union:__anon4::__anon5
+cwpack_item	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^} cwpack_item;$/;"	typedef	line:140	typeref:struct:__anon4
+unpack_underflow_handler	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^typedef int (*unpack_underflow_handler)(struct cw_unpack_context*, unsigned long);$/;"	typedef	line:144
+cw_unpack_context	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^typedef struct cw_unpack_context {$/;"	struct	line:146
+item	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    cwpack_item                 item;$/;"	member	line:147	struct:cw_unpack_context
+start	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    uint8_t*                    start;$/;"	member	line:148	struct:cw_unpack_context
+current	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    uint8_t*                    current;$/;"	member	line:149	struct:cw_unpack_context
+end	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    uint8_t*                    end;             \/* logical end of buffer *\/$/;"	member	line:150	struct:cw_unpack_context
+return_code	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    int                         return_code;$/;"	member	line:151	struct:cw_unpack_context
+err_no	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    int                         err_no;          \/* handlers can save error here *\/$/;"	member	line:152	struct:cw_unpack_context
+handle_unpack_underflow	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^    unpack_underflow_handler    handle_unpack_underflow;$/;"	member	line:153	struct:cw_unpack_context
+cw_unpack_context	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack.h	/^} cw_unpack_context;$/;"	typedef	line:154	typeref:struct:cw_unpack_context
+cwpack_defines_h	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cwpack_defines_h$/;"	macro	line:26
+COMPILE_FOR_LITTLE_ENDIAN	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define COMPILE_FOR_LITTLE_ENDIAN$/;"	macro	line:59
+COMPILE_FOR_BIG_ENDIAN	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define COMPILE_FOR_BIG_ENDIAN$/;"	macro	line:68
+COMPILE_FOR_LITTLE_ENDIAN	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define COMPILE_FOR_LITTLE_ENDIAN$/;"	macro	line:70
+COMPILE_FOR_BIG_ENDIAN	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define COMPILE_FOR_BIG_ENDIAN$/;"	macro	line:76
+COMPILE_FOR_LITTLE_ENDIAN	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define COMPILE_FOR_LITTLE_ENDIAN$/;"	macro	line:78
+COMPILE_FOR_BIG_ENDIAN	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define COMPILE_FOR_BIG_ENDIAN$/;"	macro	line:82
+COMPILE_FOR_LITTLE_ENDIAN	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define COMPILE_FOR_LITTLE_ENDIAN$/;"	macro	line:85
+COMPILE_FOR_LITTLE_ENDIAN	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define COMPILE_FOR_LITTLE_ENDIAN$/;"	macro	line:88
+PACK_ERROR	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define PACK_ERROR(/;"	macro	line:100
+cw_store16	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_store16(/;"	macro	line:110
+cw_store32	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_store32(/;"	macro	line:111
+cw_store64	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_store64(/;"	macro	line:112
+cw_store16	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_store16(/;"	macro	line:118
+cw_store32	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_store32(/;"	macro	line:121
+cw_store64	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_store64(/;"	macro	line:128
+cw_store16	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_store16(/;"	macro	line:142
+cw_store32	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_store32(/;"	macro	line:146
+cw_store64	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_store64(/;"	macro	line:152
+cw_pack_reserve_space	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_pack_reserve_space(/;"	macro	line:166
+tryMove0	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define tryMove0(/;"	macro	line:184
+tryMove1	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define tryMove1(/;"	macro	line:192
+tryMove2	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define tryMove2(/;"	macro	line:201
+tryMove4	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define tryMove4(/;"	macro	line:210
+tryMove8	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define tryMove8(/;"	macro	line:219
+UNPACK_ERROR	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define UNPACK_ERROR(/;"	macro	line:235
+cw_load16	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_load16(/;"	macro	line:246
+cw_load32	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_load32(/;"	macro	line:247
+cw_load64	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_load64(/;"	macro	line:248
+cw_load16	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_load16(/;"	macro	line:254
+cw_load32	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_load32(/;"	macro	line:258
+cw_load64	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_load64(/;"	macro	line:263
+cw_load16	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_load16(/;"	macro	line:277
+cw_load32	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_load32(/;"	macro	line:281
+cw_load64	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_load64(/;"	macro	line:287
+cw_unpack_assert_space	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_unpack_assert_space(/;"	macro	line:302
+cw_unpack_assert_blob	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define cw_unpack_assert_blob(/;"	macro	line:325
+getDDItem	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define getDDItem(/;"	macro	line:331
+getDDItem1	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define getDDItem1(/;"	macro	line:335
+getDDItem2	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define getDDItem2(/;"	macro	line:340
+getDDItem4	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define getDDItem4(/;"	macro	line:346
+getDDItem8	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define getDDItem8(/;"	macro	line:352
+getDDItemFix	D:\Google Drive\Soft Robot\electronics\Test3\lib\cwpack\src\cwpack_defines.h	/^#define getDDItemFix(/;"	macro	line:358
+setup	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\examples\1-simple\1-simple.cpp	/^void setup() {$/;"	function	line:8	signature:()
+loop	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\examples\1-simple\1-simple.cpp	/^void loop() {$/;"	function	line:14	signature:()
+TCA9548A-RK	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\README.md	/^# TCA9548A-RK$/;"	function	line:1
+Pinouts	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\README.md	/^## Pinouts$/;"	function	line:9
+Test Circuit	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\README.md	/^## Test Circuit$/;"	function	line:51
+Examples	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\README.md	/^## Examples$/;"	function	line:55
+TCA9548A	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.cpp	/^TCA9548A::TCA9548A(TwoWire &wire, int addr) :$/;"	function	line:6	class:TCA9548A	signature:(TwoWire &wire, int addr)
+~TCA9548A	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.cpp	/^TCA9548A::~TCA9548A() {$/;"	function	line:10	class:TCA9548A	signature:()
+begin	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.cpp	/^void TCA9548A::begin() {$/;"	function	line:13	class:TCA9548A	signature:()
+setChannel	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.cpp	/^void TCA9548A::setChannel(uint8_t channel) {$/;"	function	line:17	class:TCA9548A	signature:(uint8_t channel)
+setNoChannel	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.cpp	/^void TCA9548A::setNoChannel() {$/;"	function	line:21	class:TCA9548A	signature:()
+writeControl	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.cpp	/^bool TCA9548A::writeControl(uint8_t value) {$/;"	function	line:25	class:TCA9548A	signature:(uint8_t value)
+__TCA9548A_RK_H	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.h	/^#define __TCA9548A_RK_H$/;"	macro	line:2
+TCA9548A	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.h	/^class TCA9548A {$/;"	class	line:5
+DEVICE_ADDR	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.h	/^	static const uint8_t DEVICE_ADDR = 0x70; \/\/ 1110 in the fixed bits + 3 adjustable bits$/;"	member	line:35	class:TCA9548A
+wire	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.h	/^	TwoWire &wire;$/;"	member	line:38	class:TCA9548A
+addr	D:\Google Drive\Soft Robot\electronics\Test3\lib\TCA9548A-RK\src\TCA9548A-RK.h	/^	int addr; \/\/ This is just 0-7, the (0x70 of the 7-bit address is ORed in later)$/;"	member	line:39	class:TCA9548A
+Test3	D:\Google Drive\Soft Robot\electronics\Test3\README.md	/^# Test3$/;"	function	line:1
+Welcome to your project!	D:\Google Drive\Soft Robot\electronics\Test3\README.md	/^## Welcome to your project!$/;"	function	line:5
+```/src``` folder:	D:\Google Drive\Soft Robot\electronics\Test3\README.md	/^#### ```\/src``` folder:  $/;"	function	line:9
+```.ino``` file:	D:\Google Drive\Soft Robot\electronics\Test3\README.md	/^#### ```.ino``` file:$/;"	function	line:15
+```project.properties``` file:	D:\Google Drive\Soft Robot\electronics\Test3\README.md	/^#### ```project.properties``` file:  $/;"	function	line:18
+Adding additional files to your project	D:\Google Drive\Soft Robot\electronics\Test3\README.md	/^## Adding additional files to your project$/;"	function	line:21
+Projects with multiple sources	D:\Google Drive\Soft Robot\electronics\Test3\README.md	/^#### Projects with multiple sources$/;"	function	line:23
+Projects with external libraries	D:\Google Drive\Soft Robot\electronics\Test3\README.md	/^#### Projects with external libraries$/;"	function	line:26
+Compiling your project	D:\Google Drive\Soft Robot\electronics\Test3\README.md	/^## Compiling your project$/;"	function	line:29
+hex	D:\Google Drive\Soft Robot\electronics\Test3\src\helper.cpp	/^const char * hex = "0123456789ABCDEF";$/;"	variable	line:3
+printHex	D:\Google Drive\Soft Robot\electronics\Test3\src\helper.cpp	/^void printHex(unsigned char* buff,int buff_length){$/;"	function	line:5	signature:(unsigned char* buff,int buff_length)
+getLocalIP	D:\Google Drive\Soft Robot\electronics\Test3\src\helper.cpp	/^int getLocalIP(String command)$/;"	function	line:27	signature:(String command)
+multiMap	D:\Google Drive\Soft Robot\electronics\Test3\src\helper.cpp	/^float multiMap(float val, float* _in, float* _out, int size)$/;"	function	line:38	signature:(float val, float* _in, float* _out, int size)
+HELPER_H	D:\Google Drive\Soft Robot\electronics\Test3\src\helper.h	/^#define HELPER_H$/;"	macro	line:2
+ohms	D:\Google Drive\Soft Robot\electronics\Test3\src\helper.h	/^float ohms[] = {$/;"	variable	line:18
+tempCs	D:\Google Drive\Soft Robot\electronics\Test3\src\helper.h	/^float tempCs[] = {5.65,5.60,5.55,5.50,5.45,5.40,5.35,5.30,5.25,5.20,5.15,5.10,5.05,5.00,4.95,4.90,4.85,4.80,4.75,4.70,4.65,4.60,4.55,4.50,4.45,4.40,4.35,4.30,4.25,4.20,4.15,4.10,4.05,4.00,3.95,3.90,3.85,3.80,3.75,3.70,3.65,3.60,3.55,3.50,3.45,3.40,3.35,3.30,3.25,3.20,3.15,3.10,3.05,3.00,2.95,2.90,2.85,2.80,2.75,2.70,2.65,2.60,2.55,2.50,2.45,2.40,2.35,2.30,2.25,2.20,2.15,2.10,2.05,2.00,1.95,1.90,1.85,1.80,1.75,1.70,1.65,1.60,1.55,1.50,1.45,1.40,1.35,1.30,1.25,1.20,1.15,1.10,1.05,1.00,0.95,0.90,0.85,0.80,0.75,0.70,0.65,0.60,0.55,0.50,0.45,0.40,0.35,0.30,0.25,0.20,0.15,0.10,0.05,0.00,-0.05,-0.10,-0.15,-0.20,-0.25,-0.30,-0.35,-0.40,-0.45,-0.50,-0.55,-0.60,-0.65,-0.70,-0.75,-0.80,-0.85,-0.90,-0.95,-1.00,-1.05,-1.10,-1.15,-1.20,-1.25,-1.30,-1.35,-1.40,-1.45,-1.50,-1.55,-1.60,-1.65,-1.70,-1.75,-1.80,-1.85,-1.90,-1.95,-2.00,-2.05,-2.10,-2.15,-2.20,-2.25,-2.30,-2.35,-2.40,-2.45,-2.50,-2.55,-2.60,-2.65,-2.70,-2.75,-2.80,-2.85,-2.90,-2.95,-3.00,-3.05,-3.10,-3.15,-3.20,-3.25,-3.30,-3.35,-3.40,-3.45,-3.50,-3.55,-3.60,-3.65,-3.70,-3.75,-3.80,-3.85,-3.90,-3.95,-4.00,-4.05,-4.10,-4.15,-4.20,-4.25,-4.30,-4.35,-4.40,-4.45,-4.50,-4.55,-4.60,-4.65,-4.70,-4.75,-4.80,-4.85,-4.90,-4.95,-5.00,-5.05,-5.10,-5.15,-5.20,-5.25,-5.30,-5.35,-5.40,-5.45,-5.50,-5.55,-5.60,-5.65,-5.70,-5.75,-5.80,-5.85,-5.90,-5.95,-6.00,-6.05,-6.10,-6.15,-6.20,-6.25,-6.30,-6.35,-6.40,-6.45,-6.50,-6.55,-6.60,-6.65,-6.70,-6.75,-6.80,-6.85,-6.90,-6.95,-7.00,-7.05,-7.10,-7.15,-7.20,-7.25,-7.30,-7.35,-7.40,-7.45,-7.50,-7.55,-7.60,-7.65,-7.70,-7.75,-7.80,-7.85,-7.90,-7.95,-8.00,-8.05,-8.10,-8.15,-8.20,-8.25,-8.30,-8.35,-8.40,-8.45,-8.50,-8.55,-8.60,-8.65,-8.70,-8.75,-8.80,-8.85,-8.90,-8.95,-9.00,-9.05,-9.10,-9.15,-9.20,-9.25,-9.30,-9.35,-9.40,-9.45,-9.50,-9.55,-9.60,-9.65,-9.70,-9.75,-9.80,-9.85,-9.90,-9.95,-10.00,-10.05,-10.10,-10.15,-10.20,-10.25,-10.30,-10.35,-10.40,-10.45,-10.50,-10.55,-10.60,-10.65,-10.70,-10.75,-10.80,-10.85,-10.90,-10.95,-11.00,-11.05,-11.10,-11.15,-11.20,-11.25,-11.30,-11.35,-11.40,-11.45,-11.50,-11.55,-11.60,-11.65,-11.70,-11.75,-11.80,-11.85,-11.90,-11.95,-12.00,-12.05,-12.10,-12.15,-12.20,-12.25,-12.30,-12.35,-12.40,-12.45,-12.50,-12.55,-12.60,-12.65,-12.70,-12.75,-12.80,-12.85,-12.90,-12.95,-13.00,-13.05,-13.10,-13.15,-13.20,-13.25,-13.30,-13.35,-13.40,-13.45,-13.50,-13.55,-13.60,-13.65,-13.70,-13.75,-13.80,-13.85,-13.90,-13.95,-14.00,-14.05,-14.10,-14.15,-14.20,-14.25,-14.30,-14.35,-14.40,-14.45,-14.50,-14.55,-14.60,-14.65,-14.70,-14.75,-14.80,-14.85,-14.90,-14.95,-15.00,-15.05,-15.10,-15.15,-15.20,-15.25,-15.30,-15.35,-15.40,-15.45,-15.50,-15.55,-15.60,-15.65,-15.70,-15.75,-15.80,-15.85,-15.90,-15.95,-16.00,-16.05,-16.10,-16.15,-16.20,-16.25,-16.30,-16.35,-16.40,-16.45,-16.50,-16.55,-16.60,-16.65,-16.70,-16.75,-16.80,-16.85,-16.90,-16.95,-17.00,-17.05,-17.10,-17.15,-17.20,-17.25,-17.30,-17.35,-17.40,-17.45,-17.50,-17.55,-17.60,-17.65,-17.70,-17.75,-17.80,-17.85,-17.90,-17.95,-18.00,-18.05,-18.10,-18.15,-18.20,-18.25,-18.30,-18.35,-18.40,-18.45,-18.50,-18.55,-18.60,-18.65,-18.70,-18.75,-18.80,-18.85,-18.90,-18.95,-19.00,-19.05,-19.10,-19.15,-19.20,-19.25,-19.30,-19.35,-19.40,-19.45,-19.50,-19.55,-19.60,-19.65,-19.70,-19.75,-19.80,-19.85,-19.90,-19.95,-20.00,-20.05,-20.10,-20.15,-20.20,-20.25,-20.30,-20.35,-20.40,-20.45,-20.50,-20.55,-20.60,-20.65,-20.70,-20.75,-20.80,-20.85,-20.90,-20.95,-21.00,-21.05,-21.10,-21.15,-21.20,-21.25,-21.30,-21.35,-21.40,-21.45,-21.50,-21.55,-21.60,-21.65,-21.70,-21.75,-21.80,-21.85,-21.90,-21.95,-22.00,-22.05,-22.10,-22.15,-22.20,-22.25,-22.30,-22.35,-22.40,-22.45,-22.50,-22.55,-22.60,-22.65,-22.70,-22.75,-22.80,-22.85,-22.90,-22.95,-23.00,-23.05,-23.10,-23.15,-23.20,-23.25,-23.30,-23.35,-23.40,-23.45,-23.50,-23.55,-23.60,-23.65,-23.70,-23.75,-23.80,-23.85,-23.90,-23.95,-24.00,-24.05,-24.10,-24.15,-24.20,-24.25,-24.30,-24.35,-24.40,-24.45,-24.50,-24.55,-24.60,-24.65,-24.70,-24.75,-24.80,-24.85,-24.90,-24.95,-25.00,-25.05,-25.10,-25.15,-25.20,-25.25,-25.30,-25.35,-25.40,-25.45,-25.50,-25.55,-25.60,-25.65,-25.70,-25.75,-25.80,-25.85,-25.90,-25.95,-26.00,-26.05,-26.10,-26.15,-26.20,-26.25,-26.30,-26.35,-26.40,-26.45,-26.50,-26.55,-26.60,-26.65,-26.70,-26.75,-26.80,-26.85,-26.90,-26.95,-27.00,-27.05,-27.10,-27.15,-27.20,-27.25,-27.30,-27.35,-27.40,-27.45,-27.50,-27.55,-27.60,-27.65,-27.70,-27.75,-27.80,-27.85,-27.90,-27.95,-28.00,-28.05,-28.10,-28.15,-28.20,-28.25,-28.30,-28.35,-28.40,-28.45,-28.50,-28.55,-28.60,-28.65,-28.70,-28.75,-28.80,-28.85,-28.90,-28.95,-29.00,-29.05,-29.10,-29.15,-29.20,-29.25,-29.30,-29.35,-29.40,-29.45,-29.50,-29.55,-29.60,-29.65,-29.70,-29.75,-29.80,-29.85,-29.90,-29.95,-30.00,-30.05,-30.10,-30.15,-30.20,-30.25,-30.30,-30.35,-30.40,-30.45,-30.50,-30.55,-30.60,-30.65,-30.70,-30.75,-30.80,-30.85,-30.90,-30.95,-31.00,-31.05,-31.10,-31.15,-31.20,-31.25,-31.30,-31.35,-31.40,-31.45,-31.50,-31.55,-31.60,-31.65,-31.70,-31.75,-31.80,-31.85,-31.90,-31.95,-32.00,-32.05,-32.10,-32.15,-32.20,-32.25,-32.30,-32.35,-32.40,-32.45,-32.50,-32.55,-32.60,-32.65,-32.70,-32.75,-32.80,-32.85,-32.90,-32.95,-33.00,-33.05,-33.10,-33.15,-33.20,-33.25,-33.30,-33.35,-33.40,-33.45,-33.50,-33.55,-33.60,-33.65,-33.70,-33.75,-33.80,-33.85,-33.90,-33.95,-34.00,-34.05,-34.10,-34.15,-34.20,-34.25,-34.30,-34.35,-34.40,-34.45,-34.50,-34.55,-34.60,-34.65,-34.70,-34.75,-34.80,-34.85,-34.90,-34.95,-35.00,-35.05,-35.10,-35.15,-35.20,-35.25,-35.30,-35.35,-35.40,-35.45,-35.50,-35.55,-35.60,-35.65,-35.70,-35.75,-35.80,-35.85,-35.90,-35.95,-36.00,-36.05,-36.10,-36.15,-36.20,-36.25,-36.30,-36.35,-36.40,-36.45,-36.50,-36.55,-36.60,-36.65,-36.70,-36.75,-36.80,-36.85,-36.90,-36.95,-37.00,-37.05,-37.10,-37.15,-37.20,-37.25,-37.30,-37.35,-37.40,-37.45,-37.50,-37.55,-37.60,-37.65,-37.70,-37.75,-37.80,-37.85,-37.90,-37.95,-38.00,-38.05,-38.10,-38.15,-38.20,-38.25,-38.30,-38.35,-38.40,-38.45,-38.50,-38.55,-38.60,-38.65,-38.70,-38.75,-38.80,-38.85,-38.90,-38.95,-39.00,-39.05,-39.10,-39.15,-39.20,-39.25,-39.30,-39.35,-39.40,-39.45,-39.50,-39.55,-39.60,-39.65,-39.70,-39.75,-39.80,-39.85,-39.90,-39.95,-40.00,-40.05,-40.10,-40.15,-40.20,-40.25,-40.30,-40.35,-40.40,-40.45,-40.50,-40.55,-40.60,-40.65,-40.70,-40.75,-40.80,-40.85,-40.90,-40.95,-41.00,-41.05,-41.10,-41.15,-41.20,-41.25,-41.30,-41.35,-41.40,-41.45,-41.50,-41.55,-41.60,-41.65,-41.70,-41.75,-41.80,-41.85,-41.90,-41.95,-42.00,-42.05,-42.10,-42.15,-42.20,-42.25,-42.30,-42.35,-42.40,-42.45,-42.50,-42.55,-42.60,-42.65,-42.70,-42.75,-42.80,-42.85,-42.90,-42.95,-43.00,-43.05,-43.10,-43.15,-43.20,-43.25,-43.30,-43.35,-43.40,-43.45,-43.50,-43.55,-43.60,-43.65,-43.70,-43.75,-43.80,-43.85,-43.90,-43.95,-44.00,-44.05,-44.10,-44.15,-44.20,-44.25,-44.30,-44.35,-44.40,-44.45,-44.50,-44.55,-44.60,-44.65,-44.70,-44.75,-44.80,-44.85,-44.90,-44.95,-45.00,-45.05,-45.10,-45.15,-45.20,-45.25,-45.30,-45.35,-45.40,-45.45,-45.50,-45.55,-45.60,-45.65,-45.70,-45.75,-45.80,-45.85,-45.90,-45.95,-46.00,-46.05,-46.10,-46.15,-46.20,-46.25,-46.30,-46.35,-46.40,-46.45,-46.50,-46.55,-46.60,-46.65,-46.70,-46.75,-46.80,-46.85,-46.90,-46.95,-47.00,-47.05,-47.10,-47.15,-47.20,-47.25,-47.30,-47.35,-47.40,-47.45,-47.50,-47.55,-47.60,-47.65,-47.70,-47.75,-47.80,-47.85,-47.90,-47.95,-48.00,-48.05,-48.10,-48.15,-48.20,-48.25,-48.30,-48.35,-48.40,-48.45,-48.50,-48.55,-48.60,-48.65,-48.70,-48.75,-48.80,-48.85,-48.90,-48.95,-49.00,-49.05,-49.10,-49.15,-49.20,-49.25,-49.30,-49.35,-49.40,-49.45,-49.50,-49.55,-49.60,-49.65,-49.70,-49.75,-49.80,-49.85,-49.90,-49.95,-50.00,-50.05,-50.10,-50.15,-50.20,-50.25,-50.30,-50.35,-50.40,-50.45,-50.50,-50.55,-50.60,-50.65,-50.70,-50.75,-50.80,-50.85,-50.90,-50.95,-51.00,-51.05,-51.10,-51.15,-51.20,-51.25,-51.30,-51.35,-51.40,-51.45,-51.50,-51.55,-51.60,-51.65,-51.70,-51.75,-51.80,-51.85,-51.90,-51.95,-52.00,-52.05,-52.10,-52.15,-52.20,-52.25,-52.30,-52.35,-52.40,-52.45,-52.50,-52.55,-52.60,-52.65,-52.70,-52.75,-52.80,-52.85,-52.90,-52.95,-53.00,-53.05,-53.10,-53.15,-53.20,-53.25,-53.30,-53.35,-53.40,-53.45,-53.50,-53.55,-53.60,-53.65,-53.70,-53.75,-53.80,-53.85,-53.90,-53.95,-54.00,-54.05,-54.10,-54.15,-54.20,-54.25,-54.30,-54.35,-54.40,-54.45,-54.50,-54.55,-54.60,-54.65,-54.70,-54.75,-54.80,-54.85,-54.90,-54.95,-55.00};$/;"	variable	line:21
