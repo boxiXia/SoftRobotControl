@@ -1,49 +1,55 @@
 /*
  * Project test2
  * Description:
- * Author: bx2150@columbia.edu
+ * Author: bx2150@columbia.edu; cat2169@columbua.edu
  * Date:
  */
 #define COMPILE_CYCLIC_EXPERIMENT_ONE_ACTUATION true
 // compile this file if COMPILE_SOFT_MOTOR==true
 #if COMPILE_CYCLIC_EXPERIMENT_ONE_ACTUATION
 
+#include <application.h>
+
+// for msgpack
 #include "cwpack.h";
 // #include "cwpack_defines.h"
+
+
 #include "helper.h"
-#include <application.h>
 #include "ADS1115.h"
 // #include <spark_wiring_i2c.h>
 
 
 //////////////////////// Networking ////////////////////////////////////////////
 // UDP Port used for two way communication
-// #define REMOTE_PORT 9071 // the port Photon will send message to
-// #define LOCAL_PORT 8888  // the receiving port on the Photon
-#define REMOTE_PORT 9072 // the port Photon will send message to
-#define LOCAL_PORT 8889  // the receiving port on the Photon
+#define REMOTE_PORT 9071 // the port Photon will send message to
+#define LOCAL_PORT 8888  // the receiving port on the Photon
+// #define REMOTE_PORT 9072 // the port Photon will send message to
+// #define LOCAL_PORT 8889  // the receiving port on the Photon
 
 #define BUFFER_SIZE 64
 UDP udp;// An UDP instance to let us send and receive packets over UDP
 IPAddress remoteIP(192, 168, 0, 101);
 unsigned char buff[BUFFER_SIZE];
+
 cw_unpack_context uc;
 cw_pack_context pc;
 #define THERMISTOR_FLAG 6 // identification code for thermistor value message
 ////////////////////////////////////////////////////////////////////////////////
 //////////////////////// Joule Heating /////////////////////////////////////////
-#define NUM_RELAY 1
-int RELAY[] = {A4};
+#define NUM_RELAY 1 //number of MOSFET for controlling PWM
+int RELAY[] = {A4}; // check the actual pin for the MOSFET
 int RELAY_PWM[] = {0};
 ////////////////////////////////////////////////////////////////////////////////
 /////////////////////// Temperature measuring //////////////////////////////////
 #define NUM_ADS1115 3
 #define NUM_THERMISTER 2
-#define VCC_INDEX NUM_ADS1115-1
+#define VCC_INDEX NUM_ADS1115-1 /// the Port# of ADS1115 that measures the reference voltage
+// creates the ADS1115 class memebers
 ADS1115 ads1115s[NUM_ADS1115] {{1, ADS1115_ADDRESS_ADDR_SDA},
                                {1, ADS1115_ADDRESS_ADDR_VDD},
                                {1, ADS1115_ADDRESS_ADDR_GND}};
-int * voltage_3_3v_adc = &(ads1115s[VCC_INDEX].adc[0]);
+int * voltage_3_3v_adc = &(ads1115s[VCC_INDEX].adc[0]); // gets the actual reference voltage
 
 //////////////////////////////////////////////////////////////////////////////
 WheatstonBridge wheatstonBridges[NUM_THERMISTER]={
@@ -77,17 +83,23 @@ void setup() {
         ads1115s[VCC_INDEX].SetConfig(0,ADS1115_PGA_4_096V,ADS1115_MUX_DIFF_2_3,ADS1115_DR_128SPS,true,true);//gain=1
 
         cw_unpack_context_init(&uc, buff, BUFFER_SIZE, 0);
+
+        // particle cloud function
         Particle.function("myHandler", myHandler);
         Particle.function("getLocalIP", getLocalIP);
+
         // Put initialization like pinMode and begin functions here.
         for (int i = 0; i < NUM_RELAY; i++) {
                 pinMode(RELAY[i], OUTPUT);
                 digitalWrite(RELAY[i], LOW);
         }
+        // begin the UDP connection
         udp.begin(REMOTE_PORT);
         udp.begin(LOCAL_PORT);
+
         // timer_debug.start();
         timer2.start();
+
         Serial.begin(9600);
 }
 
@@ -119,7 +131,7 @@ void loop() {
                 // cw_unpack_next(&uc);
                 // if (uc.item.type == CWP_ITEM_ARRAY && uc.item.as.array.size == 2){
                 if (UnpackCheckArray(&uc, 2)) {
-                        if (UnpackCheckU8(&uc, 7)) {
+                        if (UnpackCheckU8(&uc, 7)) { // 7 is just an identifier
                                 // printHex(&uc.item.as.u8,1);
                                 cw_unpack_next(&uc);
                                 if (uc.item.type == CWP_ITEM_ARRAY) {
@@ -203,6 +215,7 @@ void ReportTemperature() {
         //               ads1115s[1].adc[0],
         //               *voltage_3_3v_adc);
 
+        // pack the temperature info to msgpack and send it via UDP
         cw_pack_context_init(&pc, send_buffer, send_buffer_len, 0);
         cw_pack_array_size(&pc, 3);
         // 3 element: [message_type],[command],[unsigned long millis()]
